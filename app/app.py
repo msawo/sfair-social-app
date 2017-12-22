@@ -4,7 +4,7 @@ Teams can follow other team members, write posts and
 view current company projects.
 
 Created: September, 2016
-Updated: November, 2016
+Updated: December, 2017
 Author: Modou Sawo
 """
 
