@@ -1,7 +1,7 @@
 # sfair-app
 A virtual company (Sfair, Inc) communication app.
 
-[View project in action in this video](https://s3.amazonaws.com/sfair-output/sfair-output/video.mp4)
+[View project in action in this video](https://youtu.be/ESWJL-yCR80)
 
 The idea for this app is, a social network app for team communication.
 
