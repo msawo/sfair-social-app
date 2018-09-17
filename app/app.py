@@ -8,6 +8,7 @@ Updated: December, 2017
 Author: Modou Sawo
 """
 
+import os
 import time
 import datetime
 
@@ -25,7 +26,7 @@ PORT = 5000
 HOST = '0.0.0.0'
 
 app = Flask(__name__)
-app.secret_key = 'auoesh.bouoastuh.43,uoausoehuosth3ououea.auoub!'
+app.secret_key = '\xca_\xe9\xe7\xd26\xa8\x82| (\x1d0\x02\x17X\x96vW\xcc\xbd@\xd2G'
 
 login_manager = LoginManager()
 login_manager.init_app(app)
@@ -58,7 +59,7 @@ def after_request(response):
 def register():
     form = forms.RegisterForm()
     if form.validate_on_submit():
-        flash("Registration Complete, please sign in", "success")
+        flash("Registration Complete, please sign in using the login menu at the top right corner", "success")
         models.User.create_user(
             username=form.username.data,
             email=form.email.data,
