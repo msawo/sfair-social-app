@@ -1,4 +1,4 @@
-# sfair-app
+# Sfair Social Network App
 A virtual company (Sfair, Inc) communication app.
 
 [View project in action in this video](https://youtu.be/ESWJL-yCR80)
