@@ -1,5 +1,5 @@
 click==6.7
-Django==1.10.4
+Django==1.11.28
 Flask==0.12.2
 itsdangerous==0.24
 Jinja2==2.9.6
